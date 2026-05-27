@@ -199,6 +199,16 @@ button:hover{
 }
 
 @media (max-width: 450px) {
+
+    header{
+        width: 100%;
+        padding: 8px 38px;
+    }
+
+    .menu{
+        width: 30px;
+        padding: 5px;
+    }
     
     h1{
 
@@ -206,11 +216,18 @@ button:hover{
     }
 
     .bannerdv{
-        width: 410px;
+        width: 387px;
         
     }
 
     ul{
+
+        background-color: #0e0e1d;
         right: 17px;
+
+    }
+
+    a{
+        color: aliceblue;
     }
 }

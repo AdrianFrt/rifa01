@@ -212,7 +212,9 @@ button:hover{
     
     h1{
 
-        display: none;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
     }
 
     .bannerdv{
@@ -222,12 +224,22 @@ button:hover{
 
     ul{
 
-        background-color: #0e0e1d;
+        background-image: linear-gradient(to bottom, #0e0e1d, #13132c);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         right: 17px;
 
     }
 
     a{
         color: aliceblue;
+    }
+
+    .rifa{
+        background-color: rgb(87, 194, 96);
+    }
+    
+    .btnpix{
+        padding: 9px 18px;
+        
     }
 }

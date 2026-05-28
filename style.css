@@ -192,12 +192,21 @@ button:hover{
 .rifa{
     background-color: rgb(71, 255, 86);
     padding: 10px 15px;
+
+    opacity: 0;
+    transform: translateY(-100px);
+
+    transition: 0.5s;
 }
 
 .rifa:hover{
     padding: 10px 18px;
     background-color: rgb(84, 158, 253);
-    transition: 0.2s;
+}
+
+.rifa.ativar{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media (max-width: 450px) {

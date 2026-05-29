@@ -282,8 +282,15 @@ button:hover{
         width: 387px;
         
     }
+    hr{
+        width: 100%;
+        color: #2b2bc4;
+    }
 
     ul{
+
+        width: 65%;
+        height: 33%;
 
         background-image: linear-gradient(to bottom, #0e0e1d, #13132c);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

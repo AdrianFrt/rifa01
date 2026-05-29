@@ -214,7 +214,7 @@ button:hover{
     width: 55%;
 
     border: solid;
-    border-width: 3.2px;
+    border-width: 2.3px;
     border-color: #3434f0;
     border-radius: 6px;
     
@@ -284,7 +284,6 @@ button:hover{
     }
     hr{
         width: 100%;
-        color: #2b2bc4;
     }
 
     ul{

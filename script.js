@@ -1,6 +1,7 @@
 var ul = document.getElementById('ul')
 
 var rifa = document.querySelectorAll('.rifa')
+var carrosel = document.querySelectorAll('.carrosel')
 
 var animarEobservar = new IntersectionObserver((elemento1) => {
 
@@ -21,5 +22,7 @@ function menu(){
 
     ul.classList.toggle('ativar')
 }
+
+
 
 

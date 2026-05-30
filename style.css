@@ -223,7 +223,7 @@ main{
     height: 30%;
     width: 70%;
 
-    border: solid 3.2px #3434f0;
+    border: solid 2.2px #101038a8;
     border-radius: 6px;
 }
 
@@ -293,10 +293,7 @@ main{
         padding: 10px;
     }
 
-    hr{
-        width: 100%;
-        color: #2b2bc4;
-    }
+  
 
     ul{
         width: 40%;
